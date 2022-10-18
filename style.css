@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgb(221, 166, 0)
+}
+header{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.fluffymoo{
+    margin-left: 20%;
+    font-size: 40px;
+}
+
+.menuflu{ 
+    margin: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menuflu li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 30px;
+   
+}
+.menuflu li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(30, 41, 8);
+}
+.quienes {
+    display: flex;
+    justify-content: space-around;
+    align-self: auto;    
+}
+.quienes p{
+    max-width: 500px;
+    height: 500px;
+    margin: 20px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.948);
+    background-color: rgb(220, 178, 73);
+}
+.quienes p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.imagenquienes{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
+.Pcompra{
+    font-size: 16px;
+    margin: 20px;
+}
+.Pcompra1{
+    margin-bottom: 5px;
+}
+.Pcomprabutton{
+    color: rgb(0, 0, 0);
+    border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*------------------footer-----------------------------*/
+
+.footerall{
+    margin-left: 42%;
+    margin-bottom: 25px;
+}
+.footerall a{
+    color: black;
+    text-decoration: none;
+}
+/*------------------------ PAGINA"MODELOS"----------------------------------------*/
+
+.recuadros{
+    width: 30% ;
+    background-color: darkgoldenrod;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-inline: 1.5%;
+    margin-bottom: 15px;
+
+}
+.imagenrecuadros{
+    width: 100%;
+}
+
+.titulorecuadros{
+    background-color: darkgoldenrod;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+
+}
+
+.textorecuadros{
+    font-size: 14px;
+    background-color: darkgoldenrod;
+
+}
+.buttonrecuadros{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* ---------- pagina de TALLES---------*/
+.titulotablas{
+    font-size: 40px;
+    margin-left: 50px;
+    
+}
+.videotablas{
+    margin-left: 30px;
+}
+.tablas{
+    font-size: 50px;
+    margin: 20px;
+}
+/*-----------pagna de Mas productos-----*/
+.masProductos {
+}
+
+/* ---------- pagina contactanos--------*/
+.vias{
+    font-size: 20px;
+    margin: 10px;
+}
+.Barra{
+    display: block;
+    margin: 10px;
+}

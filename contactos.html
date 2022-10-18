@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/FAVICON.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Fluffymoo</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="Imagenes/NEW LOGO FLUFFYMOO LOGO IV.png" title="Fluffymoo" alt="" width="150px">
+        </a>
+
+        <nav class="nav-style">
+            <ul class="menuflu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="modelos.html">Modelos</a></li>
+                <li><a href="talles.html">Talles</a></li>
+                <li><a href="masp.html">Mas productos</a></li>
+                <li>Contactos</li>    
+            </ul>
+        </nav>
+    </header>
+    
+<main>
+    <h1>CONTACTANOS</h1>
+    <form>
+        <label for="nombre"> NOMBRE 
+            <input type="text" id="nombre" required="required" placeholder="Tu nombre">
+        </label>
+
+        <label for="email"> E-MAIL 
+            <input type="email" name="email" id="email" required placeholder="ejemplo@ejemplo.com">
+        </label>
+        <label for="telefono"> TELEFONO
+            <input type="number" id="telefono" required="required" placeholder="11 77777777">
+        </label>
+        <br>
+        <br>
+        <label for="mensaje"> MENSAJES
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribenos tus comentarios o dudas"></textarea>
+        </label>
+        <button class="Pcomprabutton" type="submit">Enviar</button>
+        <button class="Pcomprabutton" type="reset">Reset</button>
+        
+        <p class="vias">Por cual via prefieres recibir respuesta?</p>
+        <div class="checkclass">
+        <label for="Notificaciones">
+            <input type="checkbox" id="nombre""> VIA TELEFONO
+        </label>
+
+        <label for="Notificaciones">
+            <input type="checkbox" id="nombre""> VIA E-MAIL
+        </label>
+        </form>
+    </div>
+            <p class="vias"> De que parte nos escribes:</p>
+    <form> 
+        <label for="europa">
+            <input type="radio" name="continente" id="continente"> Europa
+        </label>
+        <label for="america">
+            <input type="radio" name="continente" id="continente"> America
+        </label>
+        <label for="asia">
+            <input type="radio" name="continente" id="continente"> Asia
+        </label>
+        <label for="africa">
+            <input type="radio" name="continente" id="continente"> Africa
+        </label>
+        <label for="oceania">
+        <input type="radio" name="continente" id="continente"> Oceania
+        </label>
+        <select class="Barra" name="" id="">
+            <option disabled selected>Latinoamerica</option>
+            <option>Argentina</option>
+            <option>Venezuela</option>
+            <option>Colombia</option>
+            <option>Brasil</option>
+            </select>
+    </form>
+</main>
+<footer>
+    <div class="footerall"> 
+    <a href="">Siguenos en las redes</a> &copy;
+    Copyright 2022
+    Creada por <a href="#" target="_blank">Fluffymoo</a>
+     </div>
+</footer>
+</body>
+</html>
