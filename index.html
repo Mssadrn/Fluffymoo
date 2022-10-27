@@ -5,59 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Imagenes/FAVICON.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <title>Fluffymoo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <img src="Imagenes/NEW LOGO FLUFFYMOO LOGO IV.png" title="Fluffymoo" alt="" width="150px">
-        </a>
-
-        <nav class="nav-style">
-            <ul class="menuflu">
-                <li>Home</li>
-                <li><a href="modelos.html">Modelos</a></li>
-                <li><a href="talles.html">Talles</a></li>
-                <li><a href="masp.html">Mas productos</a></li>
-                <li><a href="contactos.html">Contactos</a></li>    
-            </ul>
+    <div class="BackG">
+    <header class="fs-4">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" > <img src="Imagenes/NEW LOGO FLUFFYMOO LOGO IV.png" title="Fluffymoo" alt="" width="100px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="talles.html">Talles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="masp.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contactos.html">Contactos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="modelos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Modelos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="modelos.html">Para  Gatos</a></li>
+                      <li><a class="dropdown-item" href="#">Para Perros</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-4" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Meoww</button>
+                </form>
+              </div>
+            </div>
         </nav>
     </header>
   <main>
-    <h1 class="fluffymoo" >Fluffymoo</h1>
-
-    <div class="quienes">
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti nihil odio accusantium necessitatibus aspernatur blanditiis ullam, porro quae accusamus, eligendi, facilis sunt voluptatum ipsam cupiditate! Nihil aut repellat necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut a quo facere placeat hic quisquam omnis nostrum minima, quas ipsam commodi provident, debitis sequi pariatur molestiae vel eius eum alias dicta. Exercitationem voluptatum suscipit laudantium corporis blanditiis nesciunt sapiente nulla, a, labore tempore veritatis, fugiat velit incidunt! Velit, quae labore explicabo quod tempora recusandae illo incidunt deleniti voluptas voluptatem, consectetur maxime dolores nesciunt doloremque quis veniam! Blanditiis exercitationem in harum cupiditate odio alias aperiam impedit accusamus suscipit possimus enim magnam, saepe, soluta molestiae quas iusto? Doloremque explicabo eveniet, qui, maxime veritatis molestiae, molestias mollitia deserunt odit id tempora odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, blanditiis est tempora cumque, non officiis similique enim quo dolore assumenda, hic quasi minima aliquid dolores! Quae vel, modi dolores voluptatum, praesentium aperiam corrupti deleniti aliquam maiores numquam architecto quisquam quasi facere doloribus cupiditate enim eius tempore cum error quod quaerat?</p>
-
-        <img class="imagenquienes" src="Imagenes/simon.jpg" alt="modelosimon">
-    </div>
-
-    
-    <div class="Pcompra">
     <section>
-        <h5 class="Pcompra1">Primera compra? Tienes un cupon de descuento</h5>
-        <button class="Pcomprabutton">Quiero mi cupon</button>
-
-
-        <form>
-            <label for="email">
-                <h1>Newsletter</h1>
-                <h5>Suscríbete ahora y recibe los nuevos diseñosy descuentos.</h5>
-                <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" required>
-            </label>
-        </form>
+        <div class="Parraf bounce-in-top">
+        <p class="fs-3 w-25 m-5 text-white text-start d-flex justify-content-center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ipsa magni maxime nesciunt, officia rerum, odit inventore aperiam voluptatum debitis consequatur hic eum quas optio corporis! Perferendis omnis inventore minus? </p>
+        </div>
     </section>
+</div>
+<section>
+    <div class="bg-warning bg-gradient ">
+        <div class="row">
+            <div class="textCompra col-md-4 col-sm-6" 
+                <h5 class="Pcompra1">Primera compra? Tienes un cupon de descuento</h5>
+                <div><button class="Pcomprabutton">Quiero mi cupon</button></div>
+                <form>
+                <label for="email"></label>
+            </div>
+            <div class="news col-md-4 col-sm-6" 
+                    <h2>Newsletter</h2>
+                    <h5>Suscríbete ahora y recibe los nuevos diseñosy descuentos.</h5>
+                    <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" required>
+                </form>
+            </div>
+        </div>
     </div>
+</section>
 
   </main>
+  
 
-  <footer>
-    <div class="footerall"> 
+<footer class="foo d-flex justify-content-center">
     <a href="">Siguenos en las redes</a> &copy;
     Copyright 2022
     Creada por <a href="#" target="_blank">Fluffymoo</a>
-     </div>
 </footer>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
