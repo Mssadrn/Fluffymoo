@@ -1,0 +1,20 @@
+{
+  "name": "adriana-practica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mssadrn/Fluffymoo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mssadrn/Fluffymoo/issues"
+  },
+  "homepage": "https://github.com/Mssadrn/Fluffymoo#readme"
+}

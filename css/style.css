@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.ImgLogo {
+  width: 100px;
+}
+
+.BackG {
+  background-image: url(Imagenes/portada.webp);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
